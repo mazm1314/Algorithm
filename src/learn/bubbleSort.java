@@ -1,5 +1,7 @@
 package learn;
 
+import java.util.Arrays;
+
 public class bubbleSort {
 
     public static void main(String[] agrs) {
@@ -28,6 +30,7 @@ public class bubbleSort {
                     arr[j] = temp;
                 }
             }
+            System.out.println("第"+(i+1)+"次循环之后的效果"+ Arrays.toString(arr));
         }
         return arr;
     }
